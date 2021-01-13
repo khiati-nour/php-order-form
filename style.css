@@ -1,0 +1,65 @@
+/*.card-deck {*/
+/*    margin-top: 50px;*/
+/*}*/
+/*.card mb-3{*/
+/*    margin: 30px;*/
+/*}*/
+/*button:active{*/
+/*    background:olive;*/
+/*}*/
+/*body{
+    background-image: url("background.jpg");
+
+    min-height: 100vh;
+    min-width: 100%;
+    !*overflow-y: scroll*!
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    !*background-repeat: no-repeat;
+    background-position: center;*!
+    color: white;
+
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+
+}
+.margin{
+
+}
+.parallax {
+    /*    background: url("background.jpg") repeat fixed 100%;*/
+    background-image: url("background.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+}
+.confirm{
+
+
+    padding: 50px;
+     margin-top: 25vh;
+    align-items: center;
+    text-align: center;
+}
+label{
+    width:auto;
+    display: inline-block;
+    vertical-align: top;
+   margin: auto
+}
