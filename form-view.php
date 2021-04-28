@@ -42,7 +42,8 @@
         <div class="form-row" id ="mail">
             <div class="form-group col-md-6">
                 <label for="email">E-mail:</label>
-                <input type="text" id="email" name="email" class="form-control" value="<?php  echo htmlspecialchars($values[0]);?>"/>
+                <input type="text" id="email" name="email" class="form-control" value="<?php if(isset ($_POST['submit'])){echo  htmlspecialchars($values[0]);} else{ echo ("");};?>" class="form-control" />
+                "<?php  echo htmlspecialchars($values[0]);?>"/>
                 <span class="error">* <?php echo $emailErr?></span>
             </div>
             <div></div>
